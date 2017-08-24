@@ -1,1 +1,8 @@
+= Programming =
 [[Vim Notes]]
+[[Grep Notes]]
+[[Bug List]]
+
+= Church Notes =
+[[Ward Meetings]]
+[[Scout Meetings]]
