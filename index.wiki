@@ -2,6 +2,7 @@
 [[Vim Notes]]
 [[Grep Notes]]
 [[Bug List]]
+[[Functional Programming Notes]]
 
 = Church Notes =
 [[Ward Meetings]]
