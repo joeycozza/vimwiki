@@ -1,0 +1,20 @@
+= Docker =
+- Container is always the same. tear down and bring up back to original container
+- Volumes are ways to persist the data from a container to the host machine
+- docker pull to download from dockerhub
+- docker run to run the image
+- docker build to build a dockerfile
+- docker tag to tag it
+- docker push to push it to dockerhub
+
+= Sql Sever Performance = 
+- Instance settings
+  - Memory
+  - Optimize for Ad hoc Workloads
+    - Creates plan stubs to improce efficiency
+  - Parallelism
+- Data
+  - 
+
+= Fast and Visible Performance =
+- 
