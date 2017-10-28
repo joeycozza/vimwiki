@@ -3,6 +3,7 @@
 [[Grep Notes]]
 [[Bug List]]
 [[Functional Programming Notes]]
+[[SORT]]
 
 = Church Notes =
 [[Ward Meetings]]
