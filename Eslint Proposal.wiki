@@ -1,0 +1,5 @@
+= A More Uniform Eslint =
+- Why
+- How
+- Who
+- When

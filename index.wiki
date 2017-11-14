@@ -4,6 +4,8 @@
 [[Bug List]]
 [[Functional Programming Notes]]
 [[SORT]]
+[[ATI]]
+[[Eslint Proposal]]
 
 = Church Notes =
 [[Ward Meetings]]
