@@ -1,0 +1,71 @@
+Object.setObjectPrototypeOf(obj, newProto);
+Object.defineProperty(obj, 'nameOfProp', {
+  get: function() {
+
+  },
+  set: function() {
+
+  }
+});
+
+
+
+= Reflect =
+exposes things that were previously internal in Javascript
+
+= Proxy =
+- Proxy uses the default implementation of Reflect, allowing you to override only specific elements of it
+- Ability to synthesize methods (make up stuff on the fly dynamically)
+- 
+const peter = {
+  name: 'peter'
+}
+  
+const peterProxy = new Proxy(peter, {});
+console.log(peterProxy.name) //peter
+  
+  
+const peterProxy = new Proxy(peter, {
+  get: function() {
+    return 'haha';
+  }
+});
+console.log(peterProxy.name) //haha
+  
+const peterProxy = new Proxy(peter, {
+  get: function(target, propertyName, receiver) {
+    return 'haha';
+  }
+});
+console.log(peterProxy.name) //haha
+
+
+- what is a revocable proxy
+
+const factory = function() {
+  const peter = {name: 'peter'};
+  return peter;
+}
+const inst = factory();
+console.log(inst.name) //peter
+
+
+
+const factory = function() {
+  const peter = {name: 'peter'};
+  const stuff = Proxy.revocable(peter, {});
+  
+  const {proxy: peterProxy, revoke} = stuff;
+  //RIGHT HERE we revoke after 2 seconds, this causes the code to throw an error if trying to use it after it has been revoked
+  setTimeout(() => revoke(), 2000);
+  return peterProxy;
+}
+const inst = factory();
+console.log(inst.name) //peter
+
+
+
+
+
+
+
