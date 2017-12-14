@@ -6,6 +6,7 @@
 [[SORT]]
 [[ATI]]
 [[Eslint Proposal]]
+[[HOW TO TRIAGE]]
 
 = Church Notes =
 [[Ward Meetings]]

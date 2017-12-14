@@ -1,0 +1,12 @@
+Slack Prod Outage and Triage
+Check status app
+Look at Heroku Logs in the metrics and Activity tabs
+Check out Splunk
+- start with sourcetype=heroku*
+- fs_host=fs-memories-prod fs_host is the heroku app name this one is memories 
+- heroku* is all logs
+- heroku is applogs only
+- heroku:router are the router logs from heroku
+- heroku:metric/s has just the memory and cpu and load
+To restart an app, in heroku dashboard, click "More" and then Restart All Dynos
+To restart an app from cli, say "heroku restart -a herokuAppName"
