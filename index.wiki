@@ -7,6 +7,7 @@
 [[ATI]]
 [[Eslint Proposal]]
 [[HOW TO TRIAGE]]
+[[Scout Ideas]]
 
 = Church Notes =
 [[Ward Meetings]]
