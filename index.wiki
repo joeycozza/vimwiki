@@ -4,19 +4,21 @@
 [[Bug List]]
 [[Functional Programming Notes]]
 [[SORT]]
-[[ATI]]
-[[Eslint Proposal]]
-[[HOW TO TRIAGE]]
-[[DTM Stage 2 Meeting]]
 [[Scout Ideas]]
+
+= Work Notes =
+[[ATI]]
+[[HOW TO TRIAGE]]
 [[Selloff Meetings]]
+[[DTM Stage 2 Meeting]]
+[[Eslint Proposal]]
 
 = Church Notes =
 [[Ward Meetings]]
 [[Scout Meetings]]
 [[BYC]]
  
-https://www.agiledeveloper.com/download.html
 = Rich Web Experience =
 [[Web Components + Polymer]]
 [[Metaprogramming]]
+https://www.agiledeveloper.com/download.html
