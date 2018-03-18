@@ -1,0 +1,38 @@
+birch 5.27, 155.45
+fs-anchored-dialog 6.64 24.23
+fs-metrics 607B 128.17
+fs-watch 3.57 132.92
+
+diwdt(f)ldt{i => jk
+(){
+(hello, joey){
+(){
+(hello, joey){
+
+
+
+
+
+F diwdt(f)dt{i => jk
+G diwdt(f)ldt{i => jk
+:try|exe "norm! dt("|endtry
+
+() => {
+hello => {
+(hello, joey) => {
+() {
+(hello) {
+(hello) {
+(hello) {
+(hello) {
+function(hello) {
+function(hello) {
+function(hello) {
+function(hello,joey) {
+function (){
+function (hello){
+function (hello, joey){
+function(){
+function(hello){
+function(hello, joey){
+

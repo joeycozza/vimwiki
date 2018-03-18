@@ -1,10 +1,11 @@
+[[scratchwork]]
+
 = Programming =
 [[Vim Notes]]
 [[Grep Notes]]
 [[Bug List]]
 [[Functional Programming Notes]]
 [[SORT]]
-[[Scout Ideas]]
 
 = Work Notes =
 [[ATI]]
@@ -12,10 +13,13 @@
 [[Selloff Meetings]]
 [[DTM Stage 2 Meeting]]
 [[Eslint Proposal]]
+[[Frontier Notes]]
 
 = Church Notes =
 [[Ward Meetings]]
 [[Scout Meetings]]
+[[Scout Ideas]]
+[[Scuba]]
 [[BYC]]
  
 = Rich Web Experience =
