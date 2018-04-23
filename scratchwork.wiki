@@ -13,26 +13,20 @@ diwdt(f)ldt{i => jk
 
 
 
-F diwdt(f)dt{i => jk
+diwdt(f)dt{i => jk
 G diwdt(f)ldt{i => jk
-:try|exe "norm! dt("|endtry
 
+bdt(f{dT)i => jk
 () => {
-hello => {
-(hello, joey) => {
-() {
+function (hello) {
+funciton (hello, joey) {
+function () {
 (hello) {
-(hello) {
-(hello) {
-(hello) {
-function(hello) {
-function(hello) {
-function(hello) {
-function(hello,joey) {
-function (){
-function (hello){
-function (hello, joey){
-function(){
-function(hello){
-function(hello, joey){
+(hello, joey) {
+(){
+(hello){
+(hello, joey){
+(){
+(hello){
+(hello, joey){
 

@@ -12,8 +12,7 @@
 [[HOW TO TRIAGE]]
 [[Selloff Meetings]]
 [[DTM Stage 2 Meeting]]
-[[Eslint Proposal]]
-[[Frontier Notes]]
+[[Frontier Next Notes]]
 
 = Church Notes =
 [[Ward Meetings]]
