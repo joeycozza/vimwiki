@@ -1,0 +1,150 @@
+- Tasks
+  - Update principals on the frontier training slides
+  - Gabe: put an agenda item about the Empathy Developer
+    - Explain it/pass it off with Jeff/Roger
+  - Gabe: Get selloff to hold a 1/month meeting for Passing off Skill Badge. (with food???)
+  - Jakob: Build a PWA from scratch to learn and get data about it.
+  - Joey: Core Team training topics, schedules, etc
+  - Logan: Formalize and organize planning for Skills Badge Training
+
+
+- Architecture Astronauts
+  - Our architecture needs to be with the input of all of us
+  - We don't want to abstract ourselves away from the problem.
+  - Core Goals/Principals of the Team
+    - Stack + Architecture
+    - Devops
+    - Docs + Training
+
+
+- What do we try to avoid?
+  - No roadmaps for path to new technology
+  - Being too "important" to be approachable
+  - Being an Ivory tower that just tells others what to do (help them understand the Why)
+  - Giving mandates that the users might know better about the situtation than us
+  - Deciding on stack items that abstract too much from tooling, IDEs, etc
+
+
+- What are we doing well?
+  - Great knowledge base
+  - Provide good tools/help
+  - Motivated to learn and experiment
+
+
+- Do we give these impressions to others?
+  - Are we out of touch? 
+  - Are we not delivering?
+  - Are we getting in their way?
+  - Do we change for change's sake?
+  - Do we strongarm teams too much? 
+
+
+- Technical Discussion
+  - What does Architecture look like?
+    - Light/Small
+    - Composable
+    - Cacheable
+    - Experiments
+      - Better logging/insights
+      - Less flakiness
+    - Strong Orchestration
+      - View-centric API
+    - Potential option for real-time
+      - Out of Band Async
+    - Move off Heroku?
+    - Mobile First
+      - Off-line
+      - PWA
+      - Responsive
+    - Global
+      - Better international growth
+        - Small devices outsite of US and Europe
+        - Teams writing desktop first isn't helping anyone
+        - Having better smaller customizable chunks to send to devices
+        - We don't have great data behind analyzing our Global usage and experience
+  - Technology to Look at
+    - Serverless
+      - Lambda
+      - Firebase
+      - Appsync
+    - Static Content
+      - Edge Caching
+    - PWA
+      - Service Workers
+      - AMP
+    - Auth
+      - JWT
+      - Browser API
+    - Notifications
+      - Push Notifications
+    - Offline 
+      - Caching/Storage
+    - Web Components
+      - Webpack
+      - Rollup
+      - Native
+      - Polymer
+    - Containers
+    - SEO
+    - HTTP2
+      - Push
+  - Gaps
+    - Debug-ability of our tools
+    - Forcing 1 shape fits all
+    - People having skills of our tools
+    - Onboarding is good not great
+    - Mobile Native relationship is lacking
+    - Automation
+      - Merging PRs and such
+    - Slow adoption
+      - Architecture not flexible
+    - Auto-scaling not smart, powerful, flexible
+    - Browser testing
+  
+      
+- Training We Need
+  - Akamai
+  - Service Workers
+  - Orchestration
+    - GraphQL
+  - Serverless
+  - PWA
+    - Offline Data
+    - Syncing
+  - ES Modules
+  - Containers
+  - AWS Products
+  - Monitoring
+
+
+- Process
+  - Stale PRs in Github
+  - Rotating Core Member?
+  - Balance of time for Investigation/Learning
+  - Balance of time for Docs/Training Skills etc.
+  - Empathy Developer
+    - No Story Points that iteration
+    - Shields other devs from distractions
+    - Monitoring Slack Channel like a hawk
+    - Merging through PRs
+    - Updating docs, skills program, etc.
+    - Tech Exploration
+    - Working on Trello Backlog/painpoint items? Cleaning up trello board?
+  - Roadblocks
+  - Metrics
+    - Average PR time to sit
+    - How fast to reply to questions in slack?
+    - Slackbot - "Did we satisfy your problem"?
+    - Using Bonusly to give micro-recognitions, and tracking that
+    
+    
+- Potential Questions for a Survey
+  - How have you been helped by the core team recently
+  - How do you feel the health of the stack is today
+  - How is the core team doing at ...
+  - Has the core team done anything to really help with your ...
+  - Has the core team done anything to hurt you with your ...
+  - What is the biggest painpoint in working with Frontier Core Team?
+  - What training do you wish you had that we can provide?
+  - How productive/beneficial do you feel the Frontier Federation and/or Frontier Shared meetings are? How could they be improved?
+

@@ -1,0 +1,19 @@
+
+Frontier Core Team Goals
+- Provide tooling around the chosen stack to simplify workflows for frontend teams
+- Provide training for chosen stack so teams understand the technologies
+- Help teams with debugging and fixing issues they need help with
+
+1. What is the biggest painpoint in working with the Frontier Core team?
+2. How productive/beneficial do you feel the Frontier Federation and/or Frontier Shared meetings are? How could they be improved?
+3. How can we (Frontier Core Team) improve on our goals?
+4. Any other misc. feedback for us?
+
+How have you been helped by the core team recently
+How do you feel the health of the stack is today
+How is the core team doing at ...
+Has the core team done anything to really help with your ...
+Has the core team done anything to hurt you with your ...
+What is the biggest painpoint in working with Frontier Core Team?
+What training do you wish you had that we can provide?
+How productive/beneficial do you feel the Frontier Federation and/or Frontier Shared meetings are? How could they be improved?

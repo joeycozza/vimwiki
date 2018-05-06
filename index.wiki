@@ -1,21 +1,29 @@
+[[scratchwork]]
+
 = Programming =
 [[Vim Notes]]
 [[Grep Notes]]
 [[Bug List]]
 [[Functional Programming Notes]]
 [[SORT]]
+
+= Work Notes =
 [[ATI]]
-[[Eslint Proposal]]
 [[HOW TO TRIAGE]]
-[[Scout Ideas]]
+[[Selloff Meetings]]
+[[DTM Stage 2 Meeting]]
+[[Frontier Next Notes]]
+[[Frontier.Next]]
 
 = Church Notes =
 [[Ward Meetings]]
 [[Scout Meetings]]
+[[Scout Ideas]]
+[[Scuba]]
 [[BYC]]
 [[Friendship]]
  
-https://www.agiledeveloper.com/download.html
 = Rich Web Experience =
 [[Web Components + Polymer]]
 [[Metaprogramming]]
+https://www.agiledeveloper.com/download.html
