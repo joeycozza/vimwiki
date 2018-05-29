@@ -6,6 +6,7 @@
 [[Bug List]]
 [[Functional Programming Notes]]
 [[SORT]]
+[[StyleStandardCommittee]]
 
 = Work Notes =
 [[ATI]]

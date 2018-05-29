@@ -2,6 +2,8 @@ Slack Prod Outage and Triage
 Check status app
 Look at Heroku Logs in the metrics and Activity tabs
 Check out Splunk
+- Make sure you are in the Frontier App in splunk.
+- Make sure to put  index=frontier  
 - start with sourcetype=heroku*
 - fs_host=fs-memories-prod fs_host is the heroku app name this one is memories 
 - heroku* is all logs
