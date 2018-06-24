@@ -17,6 +17,7 @@
 [[Frontier.Next]]
 
 = Church Notes =
+[[Heart Specialist]]
 [[Ward Meetings]]
 [[Scout Meetings]]
 [[Scout Ideas]]
