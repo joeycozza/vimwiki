@@ -1,4 +1,5 @@
 [[scratchwork]]
+[[trash]]
 
 = Programming =
 [[Vim Notes]]
