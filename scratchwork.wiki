@@ -1,19 +1,27 @@
+Advanced Open Water Cert for 3 people.
+- How much per person?
+- What are the classes like, or is it just dives?
+- How many for a group rate?
+- What does it all entail?
+
+
+$225 for advanced for 1 person.
+include going out and the gear.
+- Bookwork. Lots of different subjects. Navigation, deepwater and 3 chosen.
+
+2 days for the 5 dives minimum
+
+
+Open Water Cert
+- $350. 
+- $25 crater fee
+- Do we just follow the course calendar?
+- What do the 6 classes entail?
+- 1 bookwork day, 3 pool days, 2 crater days
+
+
 monique
 (801) 680-6697
 
 prestige bathworks
 (801) 502-3805
-
-
-
-disabled triggers
-- 9:05am disabled ps-scoreboard-data-prod-addPersonStreamEventHandler kinesis trigger
-- 9:37am disabled ps-scoreboard-data-prod-submitterStreamEventHandler kinesis trigger
-- firebase downloads appear to have gone to 0
-- 11:20 enabled   ps-scoreboard-data-prod-addPersonStreamEventHandler kinesis trigger
-- after huge initial spike (14mb downloaded) firebase is reporting 200-300kb download per minute
-- 1:31pm disabled ps-scoreboard-data-prod-addPersonStreamEventHandler kinesis trigger
-- 1:31pm enabled ps-scoreboard-data-prod-submitterStreamEventHandler kinesis trigger
-  - I want to just verify that submitterStream is contributing ~1MB by itself
-  - It was verified
-- 10:45 on Friday, enabled ps-scoreboard-data-prod-addPersonStreamEventHandler kinesis trigger
