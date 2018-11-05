@@ -1,0 +1,36 @@
+
+= WINS: =
+1. Community Resource Training/Ecosystem
+2. Productivity?
+3. Hiring / HR
+4. Stack Simplification
+5. ICS Alignment
+
+
+= Wins =
+Hiring strategy for senior devs
+Easier training
+Easier to find solutions
+"It's just javascript"
+Better tooling/ecosystem
+Aligning with ICS
+  Leveraging resources/training/SORT
+Gives us more consistency
+
+
+= Losses =
+Existing tools, infrastructure, etc.
+
+
+
+
+
+There is a cost to staying in Polymer, as well as switching to React
+Look into the SingleSpa meta framework
+
+
+= Steps to org-wide adoption =
+- Any "CORE" stuff like HF, auth, etc need to be done
+- How do make polymer and react play nicely together
+- Do we stop support at Polymer 2?
+- Does polymer 3 work better with React vs polymer 2?

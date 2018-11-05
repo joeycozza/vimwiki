@@ -1,0 +1,18 @@
+- Thoughts on the Org
+  - I absolutely love the peer-to-peer recognition system
+  - The vibe I've gotten is that pushing features is king
+    - I've heard others complain about a lack of focus on training and teaching
+  - Pretty unimportant, but I'd like some FamilySearch swag. Hat or jacket or something.
+    - Talk to Gabe about setting aside some budget
+      - RootsTech also has some swag stuff
+
+
+
+
+- Things I've done well
+  - Built the component-catalog
+  - Made major improvements to frontier-cli tools
+    - Auto-updating on dependency updates
+  - DTM Phase 2 - Blueprint changes/updates
+  - Provided quality support to front-end teams
+  - Need 1 more lesson plan for heart specialist

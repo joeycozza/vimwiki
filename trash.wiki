@@ -1,8 +1,6 @@
-Hey Webdevs,
-  This is a final reminder that we will be deleting the FamilySearchElements github organization soon. All of the
-repositories have already been renamed to DEPRECATED_{repoName}. If there is any code in any of the repos that you would like to 
-clone or move or save, this is your last chance to do so.
+become webpack experts
+react tooling expert
+polymer + react?
+rewrite polymer from scratch? wrap it in react stuff?
 
-With much love and affection,
-
-The Core Team
+128-160
