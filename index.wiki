@@ -24,6 +24,7 @@
 [[Frontier.Next]]
 
 = Church Notes =
+[[2019 Plan]]
 [[Priests Lessons]]
 [[Heart Specialist]]
 [[Ward Meetings]]
