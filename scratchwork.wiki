@@ -1,36 +1,36 @@
-become merit badge counselor
-make report of youth not involved and invte them to scouting programs
-identify ways to report on YM near 18 and that could get eagle
-Read bayden powerl story to gain a greater appreciation of scouting
-invite at least 5 leaders to attend roundtable with me to at least 6 of the 12 round tables
-certify in basic first aid and cpr
-prepare a presentation on scuba in the scout troop and present it at roundtable
-
-
-Advanced Open Water Cert for 3 people.
-- How much per person?
-- What are the classes like, or is it just dives?
-- How many for a group rate?
-- What does it all entail?
-
-
-$225 for advanced for 1 person.
-include going out and the gear.
-- Bookwork. Lots of different subjects. Navigation, deepwater and 3 chosen.
-
-2 days for the 5 dives minimum
-
-
-Open Water Cert
-- $350. 
-- $25 crater fee
-- Do we just follow the course calendar?
-- What do the 6 classes entail?
-- 1 bookwork day, 3 pool days, 2 crater days
-
-
 monique
 (801) 680-6697
 
 prestige bathworks
 (801) 502-3805
+
+
+cognito feedback-app app client Id
+7879cu84cbc3434lqq97st931c
+
+firstuser:1Password!
+
+password changed to 
+AWS@dmin12345
+
+session
+O-b2nED1hyd-dthoNn8-rR01pB8xlg5gKJD1xh0iDwZic4QMyYRCAm0uF1FEZB0qdfWPAlMbBc6yj5NNaehCllujX0Vu22Iz32GkzGrSnezTWXOiRK2jfkQVbT-eHmm9Qs-UHnKYnoLfEjSCRKKdKQwyqMa4FDX3TO-nwoZStr5xtEyzIZCguQ3TwCC4TaTwY6QZNUpZjDKnmuC7Uub7RO3csa-cC450pgZE-qtTbPu9bFOi3icjogryysCw0W7IvdU1UiZ7nCuSVl_ncs_I0dBh4R3BGdLi_3PRzh20pRuO9qtdzH5s6Yno2lji-7UFhnAzdCHRCBgbgh8dEd3AmWOL7FKgi0xNjWmw1K334nSmn7ar8az3etd0SOiR7nXAIS5VTi7eauWKgIh8iGVQsDhi8XCjl6KbDfHCPHqiiLhRth4bNV0Ea9kWKRjZNK9UgUFV_EqN9S9fUFYZ97Emn_4r_WCQMpZ65VunVbtHaX03au-gvRzujIAfwq2e7UFt0o5J6PHH-lPzMYX_hg5CZUvFZm6cNYhY0rk0GCUvRGEQjHAC5REtxk4nto3XkxgA0EOfFviv6Qbcq9X0R1KZIXP7i6iwcpJPlo0E4LUedB9wbR6jPzEUDFL1kwuC_DauIsJb2a4ysgTzqavR3TeYrTaJO8-i6cIUiYuuRG5SeR9OLNfFqDZQ75LBD1KAySEeokkKhUNqUAzt1eo7c4GhjKtJDKd5eerrWelA67OVvawr3MAJbdEuXX8g-QvhlG5fH3qzy7irAbPwTnLiI4Gc-NbN235Mx_8lWx23ElXaAUbXv2EGIRc7zvDYvMD6fbac_Yl36WO_hfAP8lkhnG5HZlLfcwA
+
+invoke url for Prod API
+https://1b4d1q2fmj.execute-api.us-west-2.amazonaws.com/Prod
+
+
+curl -H "Authorization: eyJraWQiOiJqK1UyRWtrVjE2QXFYQ2VGaVwvcVVqSEJ2cWFkaWlyNUF0d0QybkZkRVBEMD0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzY2YyYmVlNy00MGQ1LTQ4YTAtYTZlNC1hYzkyYTJmZmI4NmEiLCJhdWQiOiI3ODc5Y3U4NGNiYzM0MzRscXE5N3N0OTMxYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjhmZWY1OGYzLWYzNDktMTFlOC04N2RkLWM3MTYxNTE2N2I0ZSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTQzNDM1NzkwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl92MkxWUWs0NjEiLCJjb2duaXRvOnVzZXJuYW1lIjoiZmlyc3R1c2VyIiwiZXhwIjoxNTQzNDM5MzkwLCJpYXQiOjE1NDM0MzU3OTAsImVtYWlsIjoiam9leWNvenphQGdtYWlsLmNvbSJ9.StiVvXjbT_626UMG1XnTI21921gME_AbfiPQ3n-gjyIWRvKhg9eOE2hnSMNtTf5-iAIFCTo9tmMF3ZC1sx5IklxE1mmncE7xR0IbGnNyfNhg9BoFtt7Gh2QKOjqJS32zJI0tQzZrNnEAT1At5dEQk6kNWacBKbUGC6JnriAUF_U6tYlIscB1KvVcfW3nvLrVevlOBu4HpmZHtLnRzLIaf1-XaWAA4Tmc9T3DmcWRAVaX_dO_POf5iPnFamcLzLVQkRhL1eDMaDjjTmrUeKKgypDzMmTzcqRat961BDgsHXRXeJETXX5PjHkp-XXQjiF52fzFnRUCqQXWJ2KGUYuUNQ" \
+  -d '{"name":"test_user", "feedback": "test feedback"}' \
+  -X POST https://1b4d1q2fmj.execute-api.us-west-2.amazonaws.com/Prod/feedback
+  
+  	
+https://feedback-users-joey.auth.us-west-2.amazoncognito.com
+
+
+S3 bucket name
+reinvent2018-serverless-web-joey
+
+response from setting up S3 to distribute our built frontend code
+  "Status": "InProgress", 
+  "DomainName": "d1v47tx069grxj.cloudfront.net", 

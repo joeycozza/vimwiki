@@ -4,6 +4,7 @@
 [[Insurance Open Enrollment Meeting]]
 [[Steve Weitzeil Meeting]]
 [[Zack Evans Recommendation Letter]]
+[[Framework Discussions]]
 
 = Random Notes =
 [[Parenting with Love and Logic]]
@@ -15,6 +16,7 @@
 [[Functional Programming Notes]]
 [[SORT]]
 [[StyleStandardCommittee]]
+[[re:Invent]]
 
 = Work Notes =
 [[ATI]]

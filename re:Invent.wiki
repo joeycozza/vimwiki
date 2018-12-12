@@ -1,0 +1,97 @@
+Lamdas
+Event source -> Lambda Function -> Whatever service you want.
+
+Anatomy of a lambda function
+  = Your Function - Language runtime - Execution Env - Compute substrate =
+  Places where you can impact are You Function, and Execution Env
+  
+Ephemeral function environment
+  - Load dependencies before the handler
+  - Lambda processes a single event per execution environment
+  - no need for non-blocking execution on the frontend
+  - REMEMBER: execution environments are reused
+    - Lazily load variables in the global scope
+    - Don't load it if you don't need it - cold starts are affected
+  - Don't run pre-handler functions everytime if you don't need it.
+
+- Subfunctions
+  - separate lambda handler (entry point) from core logic
+  - Use functions to Transform, not Transport
+    - ie Streams to db should use firehose or something like that
+  - Dynamic logic via configuration
+  - read only what you need
+    - properly indexed dbs
+    - query filters in Aurora
+    - Use S3 Select
+  - No Orchestration in code. Keep lambda with only business logic
+    - if a call in your lambda fails, don't do a backoff or something.
+    - Would need to separate out the orchestration like AWS Step Functions
+  - Mono repo === anti-pattern for FaaS (functions as a service)
+    - If funcitons share an event source, they can go in the same repo, if not, they go in their own repo
+        as separate "applications".
+      - This simplifies permissions
+    - If functions share an event source but require varying different imported packages, 
+        make them their own function files/jars/etc.
+      - Keep dependency bloat minimized per function
+
+- Execution environment
+
+
+= Alexa and Call of Duty =
+- Business Needs, Requirements, Early Ideas
+  - Central Data Services Event Pipeline
+     - TONS of events from the game etc
+  - Python Pipeline Readers
+  - Distributed NoSQL Data Mart
+  - REST API Endpoint
+  - My.callofduty.com
+  - Multiplayer
+    - Different Games modes between 2 teams
+      - Diffuse bombs, capture the flag, free for all, etc
+    - Build and choose certain loadouts
+      - It is really hard to build and choose all these loadouts
+      - We need a coach...like Alexa
+  - We want to drive engagement
+  - What does a CoD coach sound like?
+  - People want to know what loadout to use, is their current optimal?
+  - What kind of feedback? Tactical, encouragement? With so much advice to give, how to sort and only give the most important?
+  - But now how is meta changes going to effect things?
+
+  - We don't want the have the users lose immersion by going to a website
+- The goals
+  - On-boarding experience
+  - Fetch real data from game
+  - Machine learning model to coach players
+  - Get people excited at the office
+
+- Community Data --->Skill Model-------
+                  |                   |
+                  --> PLaystyle Model-----> Recommendation Model
+                                      |
+                  User Data------------
+                  
+- Input data
+  - User Data (real time)
+    - Match Data
+    - Facts & Milestones
+  - Community Data
+    - Aggregations for a window of time (to be relevant for current meta and recent changes)
+    - Per map and per mode
+    - Refreshed weekly
+  
+- Skill
+  - How good are you? 
+  - If you are already good and have a bad match, we can be "mean" about it
+  - If you are bad, alexa will be nicer about it
+- Playstyle Model
+  - Not a class, but a continuous value
+- Recommendation
+  - Map + Mode + Style + Skill
+
+- Main Intents
+  - Match & Summary Analysis
+  - Stat Lookup
+  - Orders & Contracts
+  - Friends
+  - News & Updates
+  - Game Events

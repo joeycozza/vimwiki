@@ -16,6 +16,27 @@ Guesstimate 30 Youth
 - Saturday Breakfast - Breakfast Burritos - Tortillas, potatos, sausage, onions, salsa, ketchup, cheese, chocolate milk, milk, some fruit. $80
 - Saturday Lunch - Hoagies - Bread, Meat, cheese, tomatos, lettuce, mayo, mustard, chips, Drink.
 
+Tortillas
+potatoes
+sausage
+onions
+salsa
+ketchup
+cheese
+milk
+chocolate milk
+some fruit
+
+Hoagie buns
+deli meat
+cheese
+tomatoes
+lettuce
+mayo
+mustard
+chips
+drinks
+
 - Friday 
   - 5:00pm - Meet @ Church and Eat pizza
   - 5:45pm - Drive to location (or stay at church if doing it at the church building)
