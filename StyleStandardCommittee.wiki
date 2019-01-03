@@ -1,6 +1,0 @@
-- General Coding Standards Collaboration Committee -
-- Review eslint stuff
-- Meet 1/month or quarter
-- Reach out to Stevo Marlin Tyler 
-  - Invite to first meeting. Who do you want there?
-  - 

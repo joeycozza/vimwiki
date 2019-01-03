@@ -1,12 +1,22 @@
+= Work Notes =
 [[reactAnalysis]]
-[[Insurance Open Enrollment Meeting]]
-[[Steve Weitzeil Meeting]]
-[[Zack Evans Recommendation Letter]]
 [[Framework Discussions]]
+[[OneonOne]]
+[[ATI]]
+[[HOW TO TRIAGE]]
+[[Selloff Meetings]]
+[[DTM Stage 2 Meeting]]
+[[Frontier Next Notes]]
+[[Frontier.Next]]
 
-[[OneonOneTopics]]
-= Random Notes =
-[[Parenting with Love and Logic]]
+= Church Notes =
+[[2019 Plan]]
+[[Ward Council]]
+[[YM Presidency Meetings]]
+[[BYC]]
+
+= Talks/Lessons =
+[[Friendship]]
 
 = Programming =
 [[Vim Notes]]
@@ -17,26 +27,3 @@
 [[StyleStandardCommittee]]
 [[re:Invent]]
 
-= Work Notes =
-[[ATI]]
-[[HOW TO TRIAGE]]
-[[Selloff Meetings]]
-[[DTM Stage 2 Meeting]]
-[[Frontier Next Notes]]
-[[Frontier.Next]]
-
-= Church Notes =
-[[2019 Plan]]
-[[Priests Lessons]]
-[[Heart Specialist]]
-[[Ward Meetings]]
-[[Scout Meetings]]
-[[Scout Ideas]]
-[[Scuba]]
-[[BYC]]
-[[Friendship]]
- 
-= Rich Web Experience =
-[[Web Components + Polymer]]
-[[Metaprogramming]]
-https://www.agiledeveloper.com/download.html

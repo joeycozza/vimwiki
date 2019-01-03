@@ -1,6 +1,0 @@
-become webpack experts
-react tooling expert
-polymer + react?
-rewrite polymer from scratch? wrap it in react stuff?
-
-128-160
