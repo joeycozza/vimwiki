@@ -1,0 +1,96 @@
+- Quick History
+  Evaluating react 4 years ago
+  From angular to react
+  Evaluated react for 4 months stretching into 6 months. 
+  Approval process was 1 year long
+  Week long react bootcamp. Probably trained 140 engineers.
+  
+  80 active react projects in bitbucket, probably 60% 
+  
+- Chose react because
+  - internationalization (react was great for that)
+  - Universal server side rendering of webpages. (SEO and performance)
+  - Currently have PSD and internal ICS designers designing reusable components
+    - Allowed us to have a monorepo situation with this
+    - Working closely with PSD for a visual styleguide
+      - WAS going to utilize templates, but in practice it didn't work very well, too many exceptions
+      - Started making more atomic components.
+      - Use Artifactory npm registry for their internal shared components
+      - 
+      - Gabe: Do the designers help play a role in biulding the components?
+        - Yes, and it started off a little rocky, but now things are more and more where the trust is high and collaboration is high
+        - We need to figure out how to get other teams to contribute compliant components
+        - Trying to a better working relationship with the designers early in their process. They use Zepplin, ICS is headed towards Figma
+        - We do use Storybook, around 120 components. 60 from our stack team, and a handful of smaller groups from other teams. 
+        - We use lerna for the individual packages. There is a root Storybook in that lerna repo.
+        - Recently we've started looking into making a singular place for all the other teams to house the components
+
+        - Our single source of truth is integration-point. Navigate to ip/ in the browser
+
+- Have a CLI tool that wraps over next.js with a few extra churchy stuff
+- Jest and enzyme for unit testing, we recommend puppeteer for End-to-End
+- Using Artifactory is pretty simple. Just put a registry entry in the .npmrc file
+- Using next.js because painpoints in upgrading webpack and other dep maintenance
+  - Relying on Next.js for routing is really nice and easy
+  - Lifecycle stuff like getInitialProps
+  - Serverside rendering, which CRA doesn't support
+  - Next.js has good performance with code splitting
+  - Next.js has great documentation
+  - If we weren't needing server side rendering, we'd probably just use CRA.
+  - Only issue with upgrading Next, there were some annoyance with Babel upgrades. 
+    - They were on babel-beta, but we wanted/need to wait until Next was on a stable babel version
+
+- Internationalization
+  - for storybook we're using an rtl plugin. CSS logical properties for rtl context
+  - for translation we have a custom translation component we've built for key-value pairs
+  - we built the custom translation component - but each team has flexibility to choose for themselves
+  - Teams are all over the map for their i18n needs. We don't want to own that for a lack of bandwidth
+
+- When we build components that have opinion, there is always someone who wants customized stuff, so we try to keep everything as atomic as possible
+
+- Most all the components come from designers.
+  - Designers are in part of our PR. They see the built storybook assets that are uploaded with the PR
+
+
+- What is your workflow for shared libraries and tooling?
+  - We have those modules essentially just listed in ip/
+  - We also have a DonutJS meeting monthly to do training and explaining of cool tools/modules, etc.
+
+- What are some good decisions you've made.
+  - Not using lerna at first was a mistake. Individual repos and dep tree management was a nightmare. (talking about shared components)
+  - Next has worked out well for us because of our need for static pages
+  - Styled components was a good choice. Doesn't seem to be a fad
+  - We failed on getting our designers on the same page with naming
+  - We failed with people going too deep with redux when they might not need it
+
+- How long have you been on react.
+  - Evaluating 4 years ago
+  - In prod for probably 2.5-3 years
+  
+- Tell us about your buyers remorse
+  - The only react failure was a team with no react experience and a tight deadline
+  - The hope was a one-size fits all with the framework.
+  - Adoption process has been slower than we've wanted it.
+  - We have a "full-stack" developer at ICS. React is a little bit of a learning curve for a java guy.
+
+- Tell us about the experience with training a new team for React
+  - The newer es6 syntax is a tricky for devs to get it.
+  - Thinking in terms of components
+  - Tim - "I agree that the javascript skills and gotchas are what tripped me up. Classes and things like that. People confuse that with React"
+  - Elder Dahl - "Thinking in components, how and why of state management was difficult. After that, things were smooth sailing"
+  - Improper usage of props.
+  - Not buying into the best practices and philosophies of react
+  - People who don't read the react docs are the ones who have trouble. READ THE DANG DOCS.
+
+- What is on your roadmap?
+  - List of new components we want to build
+  - We are tasked with supporting angular, so we have goals about what that looks like
+  - Working on cross communication through the organization and to 3rd party vendors/partners
+  - Get better onboarding for new employees and what the stack provides
+
+- Why the Year lag behind React
+  - We only lag with Eden do not cause stress and harm to lagging teams. If we upgraded a component to use hooks, then all dependents have to upgrade
+
+- Were there hidden costs in the platform?
+  - Rampup time for devs who are new to React. The bootcamp has helped with that, but a 3 month rampup for teams that usually isn't planned/figured into the cost
+  - Generally, cost is equal or better cause of the reuse and things like that. And that gets better over time.

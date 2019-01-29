@@ -1,0 +1,35 @@
+= Jeff Meeting React Tasks =
+- Deciding to do a clean break for writing react. We are not writing react in the assets/ directory.
+  - All written react will be outside of the bifrost app
+  - Load react bundle from external dependency
+
+= Some meetings =
+- Our Recommendations
+  - styleguidist for local dev, demos, documentation, and component catalog
+  - Fork CRA and tweak to our needs for now, not creating our own frontier-scripts like paypal-scripts
+  - It looks like next.js is probably not a good fit for us right now because of a few caveats like dynamic routing, blocking server side rendering, etc
+    - We need to do a quick evaluation of gatsby
+    - Continue evaluation of Next.js to more fully understand the potential deal breakers
+  - config directory at the root, with ${environment}.cfg
+    - and the envvars get built into the built output
+  - Styling components with CSS Modules
+  - Artificatory/NPM stuff
+    - ICS can support artifactory with/for us
+      - There are questions that come along with that
+  - Monorepo with lerna for shared components 
+
+  - ***Docz for Frontier-Docs (our version of ICS's integration-point)***
+    - We need to start documenting our recommendations
+  - We need a special slack channel for our Early-Adopters
+
+
+
+
+= Jan. 22nd Meeting =
+- Vision on Team Makeup: Building Bridges
+  - Cade planning on coming on Feb. 4th
+  - Making an "Implementation Team" for launching react within the org
+    - Tyler Graf
+    - Matt Larsen
+- Need to nail down React Training
+  - Should identify probably 10 key points that we need people to know
