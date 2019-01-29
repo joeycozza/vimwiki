@@ -1,0 +1,100 @@
+= Tree Teams =
+- Gabe discussed Assumptions and hopes of our Choice to go to Polymer and Web Components
+  - Interop with native web components (hopefully no build tools some day)
+  - Backed by google
+  - Use the platform
+  - Uncertainty with other frameworks
+  
+- What are the invalid assumptions?
+  - Less Code Churn
+    - Clif: Componetization and reuse was super important
+  - Smaller footprint/less code as polymer becomes lighter and lighter
+    - People agreed that this was true
+  - Backed by Google
+    - Clif/David Crowther: Finding docs and googling about Polymer 2 is super hard. Most blogs are polymer 1.
+    - Doesn't seem to be a huge organization push
+  - Assumed community growth
+    - Everyone agreed there is no adoption the way we had hoped
+  - Rich library of components
+    - Hasn't really happened. Google Maps one burned us.
+    - Paper Elements/material was like 100k
+  - Interopability
+    - Gabe: it is fairly successful
+    - Logan: interop is good, except with React
+    - Clif: fs-dialog and personcard on Gadget code, angular code, v7, v8, etc.
+    - Rick: ICS couldn't use one of his WC cause they are on React
+  - No Build Steps
+    - Native wc HAVE to have build step cause of translations
+    - Clif: Adding a fast build step is not a big deal. But if it is a long build step, then that is a huge pain
+    - Build steps + Sophos = garbage
+    - Tyler: Build steps are okay if they are well done and fast. Slow build step changes EVERYTHING
+    - Tyler: Anything over 5 seconds is going to be very painful cause of developer loop
+    - Gabe: If we want to leverage new language features, without a build step that is impossible. How important to you is New Lang Features?
+      - Rick: Would have had some real niceties with a build step and features that didn't exist
+    - No build tool required is NOT a key feature as long as Build tool is fast and robust
+  - Uncertainty with other frameworks
+    - Not as much as a fad as we were expecting
+
+- What isn't important now?
+  - David: Being backed by google isn't important to me right now
+  - Drew: Developer Experience. for me personally that is extremely important. It is fun that polymer and wc is on the Edge. 
+          Cool to be an early adopter of polymer. Moving to a more mainstream framework is a bummer.
+  - Jacob: Counterpoint is that the frustration of early adoption isn't important.
+
+- What are the factors today that are important to us as we try to define direction and define technology stack?
+  - HR/Recruiting/Retaining/Resume Building
+    - Clif: It feels like lots of people have quit recently, but what are the actual NUMBERS?
+    - Tyler: Technology is a "hygiene factor". It doesn't close a deal for them to say yes, but it does deter 
+              people from being interested in recruiting. We want to not turn people off and easy to train them
+    - Drew: Feels weird to me, don't understand why we are talking about this as a technology decision
+    - Clif: As long as we don't make a terrible choice of framework, then it isn't super important which framework/tech it is
+    - Jacob: We have to produce the training which is a large problem
+    - ---: Closest to vanilla javascript is real nice. Web Components is so close to vanilla and it is so nice. I already know javascript.
+    - Joel: The idea of getting rid of frameworks and being standards based is really important to me. So now the investments I make to the
+            standards are long term investments.
+    - Gabe: Do you think it is realistic that we can have no framework?
+      - "No" from many people in the room
+      - Clif: We either use an industry standard, or we write and maintain our own framework. That would be a nightmare
+      - Jacob: An opinionated framework is a blessing and a curse. Harder thing to learn + guardrails vs easier to learn + wild wild west.
+               I do like the "bumpers". 
+      - David: refering back to the standards. Back in angular days, did we even follow the convention? Can we actually use the framework
+              in the community convention way?
+    - Rick: I can't go to a meetup and learn anything important for me, cause they are all on other things than polymer
+
+  - Dev Experience
+  - Community/Productivity
+  - Stack Maintenance/Support
+  - Aligning with ICS?
+
+- Drew: All of the points except HR are for sure important
+- ---: Performance is #1
+  - Clif: Once you start eeking out performance, dev productivity becomes harder and harder
+- Jacob: As long as the performance is under some threshold, then I don't care about performance being SO important
+- Joel: Productivity. I want to be working on the business logic, not working against a framework
+  - Gabe: How are you more productive
+    - Rick: Faster build times, good build error logs
+    - Jacob: Documentation
+    - Clif: Knowing best practices
+    - Drew: My developer experience is lowered with a "framework". It would make my job less fun 
+    - Joel: Testing needs to be reliable and fast
+    - Joel: When you have to go "outside" and interact with another group, that slows down productivity
+      - Gabe: So you would be more productive if you were more empowered to solve the problems yourself?
+        - Joel: Yes
+- Rick: do we even NEED to align with ICS? I am probably the only one that interacts. Is that actually important
+  - David: Think about SORT and then training there
+- Jason: HR/Productivity. The rampup time and training is important. How much rampup time would we need to be productive?
+  - Zach: 2/3 weeks to feel comfortable/confident with Polymer and Web Components. It took probably 3 days to feel comfortable in react
+      The resources being available is probably a lot of why react was so easy for me.
+- Jason: Rampup from Angular 1-ish to 2-ish was a large rampup time
+- David: I enjoy working in components that are "bundled up together", so I wouldn't mind Polmer vs React in that sense
+- ---: Biggest concern is moving all of our components and stuff that we've already done.
+  - Gabe: That is one of the biggest concerns. The core team has done exploring.
+
+
+= Frontier Feedback =
+- David: Empathy dev is great, but sometimes you aren't at you're desk
+- Clif: When core jumps on issues quickly, it is great and makes us feel good
+- Joel: Your team is great, but I wish we could clone them. Sometimes you feel too spread thin
+- Drew: Thanks for this meeting and how we have a voice with this decision
+- Jacob: Stay Golden Pony Boy
+- Drew: I don't know how important this is, but I have no idea what you guys are doing sometimes.

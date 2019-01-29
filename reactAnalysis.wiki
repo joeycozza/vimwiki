@@ -21,10 +21,6 @@ Gives us more consistency
 = Losses =
 Existing tools, infrastructure, etc.
 
-
-
-
-
 There is a cost to staying in Polymer, as well as switching to React
 Look into the SingleSpa meta framework
 

@@ -1,9 +1,40 @@
+<<<<<<< HEAD
 = Nov. 18th =
 
 - Feedback on the Youth Planning Retreat
   - Would have been good to discuss combined activities together before splitting up
   - It was fun, we go done what we needed to get done
   - Stake didn't give us the list of 12 self-reliance principles in time.
+=======
+=  =
+
+- Jeremy and Josh come up to YM?
+- Deacons and Teachers would like 1 more advisor
+- New Deacons and Teachers quorum Presidencies
+- $600 for a big tent
+- What do we do about the YW combined with the Fundraiser
+
+- Fundraiser
+  - We need to be allowed to invite outside the ward
+  - We need to define roles and responsibilites for YM vs YW
+  - Menu
+    - Pulled pork, potato bar, slaw, autioned desserts
+    - Goat auction + insurance
+- Matt to ask Johnny Revel to aution
+- $20 per family
+ 
+YW assignments
+- Coordinate slaw + donated desserts
+- All silent auction items coordinated
+- Tickets for dinner
+- Front entry. Able to buy flags, garbage cleaning, raffle tickets, entry fee
+
+YM assignments
+- All food
+- Raffle tickets
+- Live auction
+- All major donations
+>>>>>>> b761aa5bcf17d6c3da57c31894a5e57966c477ce
 
 = Oct. 21st = 
 Adams Family
@@ -22,6 +53,27 @@ Guesstimate 30 Youth
 - Friday Evening Snacks - Hot chocolate + Donuts - $40
 - Saturday Breakfast - Breakfast Burritos - Tortillas, potatos, sausage, onions, salsa, ketchup, cheese, chocolate milk, milk, some fruit. $80
 - Saturday Lunch - Hoagies - Bread, Meat, cheese, tomatos, lettuce, mayo, mustard, chips, Drink.
+
+Tortillas
+potatoes
+sausage
+onions
+salsa
+ketchup
+cheese
+milk
+chocolate milk
+some fruit
+
+Hoagie buns
+deli meat
+cheese
+tomatoes
+lettuce
+mayo
+mustard
+chips
+drinks
 
 - Friday 
   - 5:00pm - Meet @ Church and Eat pizza

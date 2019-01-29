@@ -1,8 +1,0 @@
-- Complete Stage 1 by end of the month
-  - Stage 1 was creating the binding sets 
-- Stage 2
-  - our services using other services need to use the binding sets
-  - Use BindingRegisterClient
-  - Whole stage is about using the correct calls for services that we consume
-  - Splunk strage 2 epic dashboard
-    - Watching as traffic goes down form the cannonical site.

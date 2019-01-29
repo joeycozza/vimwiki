@@ -1,22 +1,7 @@
-[[scratchwork]]
-[[trash]]
-[[reactAnalysis]]
-[[Insurance Open Enrollment Meeting]]
-[[Steve Weitzeil Meeting]]
-[[Zack Evans Recommendation Letter]]
-
-= Random Notes =
-[[Parenting with Love and Logic]]
-
-= Programming =
-[[Vim Notes]]
-[[Grep Notes]]
-[[Bug List]]
-[[Functional Programming Notes]]
-[[SORT]]
-[[StyleStandardCommittee]]
-
 = Work Notes =
+[[reactAnalysis]]
+[[Framework Discussions]]
+[[OneonOne]]
 [[ATI]]
 [[HOW TO TRIAGE]]
 [[Selloff Meetings]]
@@ -26,16 +11,19 @@
 
 = Church Notes =
 [[2019 Plan]]
-[[Priests Lessons]]
-[[Heart Specialist]]
-[[Ward Meetings]]
-[[Scout Meetings]]
-[[Scout Ideas]]
-[[Scuba]]
+[[Ward Council]]
+[[YM Presidency Meetings]]
 [[BYC]]
+
+= Talks/Lessons =
 [[Friendship]]
- 
-= Rich Web Experience =
-[[Web Components + Polymer]]
-[[Metaprogramming]]
-https://www.agiledeveloper.com/download.html
+
+= Programming =
+[[Vim Notes]]
+[[Grep Notes]]
+[[Bug List]]
+[[Functional Programming Notes]]
+[[SORT]]
+[[StyleStandardCommittee]]
+[[re:Invent]]
+
