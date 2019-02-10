@@ -2,12 +2,3 @@ Mary Sears Wood
 15 Oct. 1810
 18 Aug 1904
 Washington, Ohio, USA
-
-./node_modules/react-styleguidist/lib/rsg-components/Playground/Playground.js
-  Module not found: Can't resolve 'rsg-components/Playground/PlaygroundRenderer' in 
-  Module not found: Can't resolve 'rsg-components/Preview' in 
-    '/Users/joeycozza/Documents/node/lerna-demo/node_modules/react-styleguidist/lib/rsg-components/Playground'
-    
-./node_modules/react-styleguidist/lib/rsg-components/StyleGuide/StyleGuide.js
-  Module not found: Can't resolve 'rsg-components/StyleGuide/StyleGuideRenderer' in 
-    '/Users/joeycozza/Documents/node/lerna-demo/node_modules/react-styleguidist/lib/rsg-components/StyleGuide'
