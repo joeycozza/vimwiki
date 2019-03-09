@@ -2,3 +2,26 @@ Mary Sears Wood
 15 Oct. 1810
 18 Aug 1904
 Washington, Ohio, USA
+
+make a new repo with a ROUTE file that just redirects everything to beta.familysearch.
+call the domain redirect
+https://frontier-zion-www-redirect.surge.sh
+
+
+
+let/const
+destructuring
+arrow functions
+promises
+spread/rest syntax
+default params with destructuring
+modules (syntax)
+template literals
+async/await
+
+Get Kent a code-sandbox of a 
+typical component that we use so we can get
+an example going
+
+
+"Using regular class names and css files was better for shared components for us at paypal"
