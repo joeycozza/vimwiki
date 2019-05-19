@@ -1,12 +1,15 @@
 Mary Sears Wood 
-15 Oct. 1810
+20 Oct. 1816
 18 Aug 1904
 Washington, Ohio, USA
-
 make a new repo with a ROUTE file that just redirects everything to beta.familysearch.
 call the domain redirect
 https://frontier-zion-www-redirect.surge.sh
 
+Stacy Bowen
+4024519000065212
+10-21
+403
 
 
 let/const
@@ -26,4 +29,29 @@ an example going
 
 "Using regular class names and css files was better for shared components for us at paypal"
 
+
+When using include, we have a whitelist of files to be transpiled.
+Trying [paths.appSrc, /node_modules\/@fs/] will result with transpiling any of the following filenames
+
+- /User/joey/fs/myApp/src/foo.js -> Transpiled, cause in appSrc
+- /User/joey/fs/myApp/node_modules/@fs/Card/index.js -> Transpiled, cause has node_modules/@fs in the filepath
+- /User/joey/FOO/node_modules/@fs/Bar/Baz.js -> Transpiled, cause has node_modules/@fs in the filepath, but this is a weird edgecase we weren't really thinking about
+
+BUT when npm linking, webpack see's the Absolute Path, so it sees /User/joey/fs/zion/packages/Card/index.js and that
+file name does not pass either of the include rules. It isn't in the appSrc and doesn't have the string "node_modules/@fs" in it.
+
+Then we turn symlinks: false and we lose HMR because of reasons I don't know. My first idea is that the symlink itself isn't updated in any way, 
+(last changed timestamp, etc), so the watcher doesn't know to pick anything up. Again, that is just a random guess for why HMR is breaking with symlinks: false.
+
+Now lets look at the exclude scenario
+
+//put into english for ease of understanding/reading
+exclude: ["node modules that don't have @fs after the word node_modules", "all app files that aren't in src"]
+
+- /User/joey/fs/myApp/src/foo.js -> Transpiled, cause it is in app WITH src 
+- /User/joey/fs/myApp/node_modules/@fs/Card/index.js -> Transpiled, cause it has node_modules/@fs in the filepath
+- /User/joey/FOO/node_modules/@fs/Bar/Baz.js -> Transpiled, cause it has node_modules/@fs in the filepath
+
+Now when npm linking, webpack see's the Absolute Path still, so it sees /User/joey/fs/zion/packages/Card/index.js and that IS transpiled, because
+we did nothing to exclude it from being transpiled.
 

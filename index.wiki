@@ -1,6 +1,9 @@
 [[scratch]]
-
+[[garbo]]
 [[ReactBrainDump]]
+[[ReactLearningLightyear]]
+
+[[noTranspilingMeeting]]
 
 = Work Notes =
 [[ICS-Meeting]]
@@ -18,8 +21,8 @@
 [[2019 Plan]]
 [[Ward Council]]
 [[YM Presidency Meetings]]
-[[BYC]]
 [[Priests Quorum Presidency Meeting]]
+[[BYC]]
 
 = Talks/Lessons =
 [[Friendship]]
@@ -32,4 +35,3 @@
 [[SORT]]
 [[StyleStandardCommittee]]
 [[re:Invent]]
-

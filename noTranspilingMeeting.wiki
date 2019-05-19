@@ -1,0 +1,16 @@
+Painpoints
+- npm linking within zion is annoying, webpack watching, latency
+- npm linking from cra to zion, same or worse with latency, watching 
+- sharing mocks between zion components is not possible right now
+
+Babel w/ Zion Advantages
+- theoretically faster cra builds
+- follows industry standards
+- less customization of CRA webpack.config.js
+
+Zero Transpilation Advantages
+- we don't have to worry about getting sourcemaps working right
+
+Ideas
+- kLook into at Publish time have multiple outputs. Babel and a src, main and module in package.json
+

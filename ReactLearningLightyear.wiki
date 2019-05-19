@@ -1,0 +1,34 @@
+# Questions/Not sure about
+  - Express routing
+  - Page titles
+  - Page scrolling when routes are loaded
+  - Getting info from URL
+
+- Discuss the whens and wheres of an evented architecture
+- Pass in a way to do templating to customize list items of a typeahead
+  - aka render a component in the dropdown list so they can be customizable
+
+# Linting annoyances
+  - once in a while want to disable eslint inline, but prettier moves it off the cur line cause of line length
+  - needing &nbsp; (going to try and get us a repodroduction)
+  - ++/-- rule needs to be turned off
+  - htmlentities must be escaped is an annoying rule
+  - Redundant alt attribute ?
+
+# Thoughts
+  - Really like how quick and fast you can get your functionality out there. 
+
+- 2 useEffects. 1 to create the map initially, the second one responds to events to move/zoom the map
+- Portals to help with react not re-rendering certain pieces of the dom
+- Right way of geting access to children element of component as DOM nodes (potentially some funniness with refs)
+  - want chilren that are extraneous to the component
+
+- Need a good way of having a button only bound to a single Quote Component, but not another Quote Component
+- I wanted my quote component to not have to care about anyone outside of it. Want to expose refresh or other functionality
+  - Have a button that calls a function on this component
+  - So have a component that manages itself and feel independent
+
+- Once prop drilling gets "painful" then use Context/Providers. But we need a better hueristic than "painful".
+  - What are the benefits/gains of using a provider
+
+- Might be useful to do a component review. Coordination of shared components, etc
