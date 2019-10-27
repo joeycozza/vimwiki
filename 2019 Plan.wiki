@@ -13,6 +13,7 @@
     - Bubble Soccer
     - Dodgefun
     - FamilySearch Building
+    - 007 - Fugitive  - Ask Jelly about it
     
     
 = Themes =
@@ -67,25 +68,32 @@ End of Feb: Duty to God rotation game
   - EA (Joey) or Programming (Adobe?)
   - Tour the VA Hospital in SLC
   - Ryan from NA Divers to discuss diving careers (Matt G)
+
 - July - Scuba
   - Classes
   - Review
   - Dive
+  
 - August - Fishing
   - DNR service
   - River fishing/fly fishing
+  
 - September - Paintball/Airsoft/Archery
   - Career/Operations night
   - Combat Techniques
   - Playing paintball
+   
 - October - Hiking/Biking
   - Bike tuneups
   - Park riding techniques
   - Single Trail Riding
-- November - Electronics
-  - Programming Board with Bishop week 1
-  - Programming Board with Bishop week 2
-- December - Cooking
+  
+- November - Cooking
   - Class 1
   - Class 2
   - Iron Chef
+  
+- December - Electronics
+  - Programming Board with Bishop week 1
+  - Programming Board with Bishop week 2
+  - Smash bros gaming night

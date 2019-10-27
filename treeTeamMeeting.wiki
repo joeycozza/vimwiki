@@ -1,0 +1,8 @@
+Really need contact-card and person-card
+  which depend on quick-glance overlay, dialog overlay
+ 
+Figure out the life cycle and ownership of contact-card - this should be done in Matt's Scheduled Component Meetings
+
+Necessary UI elements -> dialog overlay, quickglance overlay, list, alert
+
+Joey - Talk to Kyle about routing with experiments and any necessary considerations there

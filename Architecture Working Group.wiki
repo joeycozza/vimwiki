@@ -1,0 +1,172 @@
+= Oct 17th =
+Tasks
+  As we see react anti-patterns, we need to add them to the trello card in Frontier Architecture Working Group
+  Gabe and Matt need to update the CRA template ExamplePage to utilize zion-ui v2.
+  
+Discussions
+  The search team utilizes isomorphic code, and it appears we don't need to make any changes to the stack
+  The proposal for Routing with Experiments and cookies seems to be accepted
+
+= Aug 8th = 
+
+Cleaning up tickets real quick
+
+Zion Iterative
+Dev branch gets anything thrown in quick
+Before going into master, multiple eyes get put into it.
+
+= July 11th =
+
+SEO/Server Side Rendering/Social Sharing
+  Search has a lot of SEO needs, and SSR and something to help with meta tags would meet their needs
+  Campaigns has social sharing needs (which is helped a lot by SSR)
+  
+  Actionable Items
+    Do a spike on this - Tyler
+      research different solutions for this
+      how much time to implement the solution
+      
+  Things/Gotchas to be aware of
+    Emotion doesn't do the same things for SSR
+    Ferenc wants to have H1s be 96 pixels. So we'd be using H3. Technically, there is a small SEO hit to that, but not that big of a deal
+    
+  Tyler did a little research to get CRA server side rendered
+    got a little ways in, looks like there is some pieces of babel that is missing
+    has a single HTML file server side rendering just fine
+    
+CRA Autodeploy and test app - Joey
+  Automatically deploy our example app and have automated tests run against it, and track things over time
+  (whenever create-react-app gets updated)
+  
+Dashboard of Shame - Cade
+  High Priority Items
+    What projects are on the React Stack (and their versions)
+    What zion deps are used and their versions are being used (if the UI is good, then why not all the deps?)
+    Last commit
+    Metrics Over Time
+      Bundle sizing
+      page load speed
+      Deploys over time
+  
+  Lower priority Ideas
+    Metrics over time
+      lighthouse score
+      codeclimate score
+      downtime/uptime
+    Traffic to each app
+    Status app info (are services that you're calling currently up)
+    Team ownership/contact information/XMatters/what slack channel to complain to
+    Frontier alerts/alerting for downtime/issues/etc
+  
+  
+Discussed the Code Quality Metrics/Uptime Dashboard
+  We chose 4 different repos for code coverage and a few for uptime.
+  Mary is going to contact Lynn to get those on the necessary dashboards
+
+  
+Action Items
+Tyler - do the SSR/SEO/Social Sharing spike
+Mary + Matt - Capture the known requirements about SEO and the known issues/gotchas around it
+Mary - Reach out to Lynn about getting on the quality dashboards
+
+
+= July 3rd =
+
+Would be interesting to have components in zion storybook to show the roadmap for the component
+
+Tasks
+Hyrum - Put a link to our JIRA project into our docs
+Justin - Follow up with Clif. Make a list about the differences from sonarcloud/codeclimate
+Justin - Schedule a discussion to talk about the Dialog api changes/lazy loading
+Mary - Think through what would need to occur for the core team to get integrated onto the Code Quality Dashboard
+
+= June 17th Mid-week-meeting =
+  - Justin asked about getting a live version of the CRA Example App. (we should automate that or at least get the RC published up there)
+    - Do we have a link to that in the docs anywhere?
+  - Dan is going to communicate out the RC1 release and the slack channel consolidation in an email to the front-end devs
+
+Why are we having this meeting?
+- Instill high confidence in what we're delivering
+- Get people excited about it
+- Communicate info about the release
+
+Main Points to get across
+  - Give a visual chart of LTS vs maintenance mode, vs production mode, etc
+  - Explain it is now released to developers, and what that DOES and DOESN'T mean for them
+    - Any breaking change is fully communicated/documented and migrations explained
+    - The zion components are in flux
+
+Outline
+  - Introduce familysearch.org/frontier (where to go for docs/help/etc) (Jeff to kickoff)
+    - We should get someone like Jeff and a designer (Matt Spencer maybe?) to explain the change in culture
+  - What RC includes/doesn't include (Gabe)
+    - Announce the workshop of upgrading your profile app
+    - Explain slack consolidation
+  - Go into a demo (run `fr init`) (Justin and Mary)
+    - Few minutes of what is on the example page.
+    - Go into the code, show people where to find the examples (keep it high level)
+    - What are some of the things the example page demonstrates (simple state management, forms, design UI components, etc)
+    - Show storybook running for the app
+  - Show zion
+    - Show how storybook works in zion
+  - People play around with `fr init` and hit the neopixel server
+
+= Assignments = 
+- Gabe: discuss with Jeff and Roger about where to have people report bugs (we'd love github, may have to be JIRA)
+- Gabe: Schedule a dry run for wednesday
+
+
+= June 13th =
+- Made roles for each member of the group
+  - And secondary roles
+- How are we going to Demo our RC?
+  - Go through the main pieces of the Example app
+  - Show and explain frontier/docs
+  - Explain how to make your profile app "new"
+  - Need to bring food
+  - Explain what slack channel to ask questions
+  - show checkSetup
+  - show fr init for new components
+  - Explain the slack channel consolidation, and that we need help with docs every time a question comes up
+  - 
+
+- Secondary Training topics
+  - Process of zion and getting
+  - Explain how node is less important in this new world
+  - 
+
+- Assignments
+  - Joey: make labels for each major section
+  - Consolidate slack channels into frontier-office again on Monday
+  - Gabe: Figure out the right way to communicate to the org about the RC1 
+  - Gabe: Schedule a dry run for our RC demo
+  - Gabe: ReSchedule levelup training off of Wednesday
+
+  
+= June 6th =
+- The stack of testing tools we use is pretty thick. sometimes we don't know what functionality we even have access to. We need to document what we have for testing
+  jest
+  react-testing-library
+  mocking tools
+  assertions
+- 
+
+
+= Intro =
+- Technical leaders in our frontend space
+- Expectation is for each of us to Represent (their team members) and Recommend (suggestions)
+
+= Discussions =
+- i18n
+  - Matt has used both moment and date-fns and much prefers date-fns
+  - We also feels we should have an API/helper for whichever library we choose
+  - Might be nice to have a build-tool or eslint rule to warn about using the underlying library as opposed to our facade
+  - For our RC, we'll have a stub of zion-date.
+- Routing
+  - With the merging of react-router and reach-router in the future, we decided we are going to move to react-router before our RC
+  
+= Assignments =
+  - Gabe: to schedule meetings every single thursday. Scheduled for 1 hour, but plan for 30 minutes
+  - Joey: to make the slack channel: FAWG
+  - Joey: have Tom Sanders to nix the frontier-federation group and calendar item
+  - Mary: Create a draft/proposal about what we are asking from the software architect group concerning date formatting/parsing 
