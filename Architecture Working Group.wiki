@@ -1,3 +1,47 @@
+= May 14 =
+Zach and Josh gave overview of their Forms LevelUp training
+
+
+Production Ready Checklist Walkthrough
+- it would be nice to be clear which steps are to be done "in beta" vs "after production deploy" vs "release" 
+
+  - it would be nice to have an actual checklist for each app to actually mark up as they go
+  - Run Book
+    - most apps dont have unique features (or only a very few)
+    - explain a little better that you need to add your app to the list and put contact info
+  - Monitoring
+    - Monitoring and Logging Policies
+      - Need to talk about Brum under the app dynamics section
+      - Potentially remove the splunk info since apps get it for free now
+      - add Sentry to the monitoring and logging policies page
+    - Operate and manage permissions
+      - would be nice to link to a page that explains who to reach out to to get those permissions
+    - Adept scale needs link to how to set it up. the load test tests adept scale
+      - need a doc with more details. 
+      - what is the typical minimal provisioning
+    - Splunk Logs. provide a sample query for them to run and test. if it doesnt work, reach out to Core team
+    - PageStats bullet point needs links to send to qa/performance test team
+    - Sentry is configured ... "in production"
+  - Blueprint/Routing
+    - Fix link to the Routing to new React App
+    - Update the docs to explain that turning off routes per experiment now works
+    - Update the Link to storybook for "see the docs here for ... link component"
+  - UI/UX
+    - have a design review documentation
+    - the review needs to occur with Developers and UX
+  - Performance
+    - someone with the performance skill badge should be reviewing this with you
+  - Internationalization
+  
+  - Testing and Automation
+    - Update the docs on 'all supported browsers' link
+  - Authentication Authorization
+    - Explain differences between authentication and authorization
+  - usage of zion-analytics, more clarification on 'dashboards created'. which dashboards, where are they?
+    - Link to prerender docs
+    - Tweak the Marlin security scan bullet points
+    - add info to contact Dennis Taggart about security scan
+
 = Oct 17th =
 Tasks
   As we see react anti-patterns, we need to add them to the trello card in Frontier Architecture Working Group

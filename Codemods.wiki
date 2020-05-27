@@ -1,0 +1,39 @@
+# Learning Material
+
+- Great intro with a glossary of terms, and a step by step for modding console.log -> console.warn 
+  - https://medium.com/@andrew_levine/writing-your-very-first-codemod-with-jscodeshift-7a24c4ede31b
+- Lists of all the ast-type definitions
+  - https://github.com/benjamn/ast-types/tree/master/def
+
+
+# Steps to write a codemod to go from default export, to a named export
+- Go to ASTExplorer
+- Choose transform of jscodeshift
+- Choose babel-eslint9 instead of recast because recast doesn't handle 'import' statements
+- write a few different style of import statements to be able to look at the AST of each of them
+
+```js
+export default function transformer(file, api) {
+    const j = api.jscodeshift;
+    const root = j(file.source);
+    const consoleLogCalls = root.find(j.ImportDeclaration, {
+        source: {
+            value: 'foo'
+        },
+        specifiers: [
+          {
+            type: 'ImportDefaultSpecifier'
+          }
+        ]
+    });
+    consoleLogCalls.forEach(p => {
+      p.node.specifiers = p.node.specifiers.filter(specifier => {
+        return specifier.type !== 'ImportDefaultSpecifier'
+      })
+      p.node.specifiers.push(j.importSpecifier(j.identifier('newNamedExport'), j.identifier('newNamedExport')))
+    });
+    return root.toSource();
+};
+```
+
+- Once you have the codemod appearing to work, then lets port this over to a codemod
