@@ -1,0 +1,15 @@
+# Get your activation Bits (for decoding the aax file)
+
+gitclone https://github.com/inAudible-NG/audible-activator
+%% Follow the setup steps here
+https://github.com/inAudible-NG/audible-activator#quick-setup
+%% Run the command
+./audible-activator.py --username=joeycozza@gmail.com --password={INPUT_PW}
+
+# Download the actual AAX file
+https://openaudible.org/
+
+# Actually convert the file
+gitclone https://github.com/KrumpetPirate/AAXtoMP3
+brew install ffmpeg gnu-sed grep
+bash AAXtoMP3 --authcode {AUTH_CODE_HERE} {PATH_TO_AAX_FILE}

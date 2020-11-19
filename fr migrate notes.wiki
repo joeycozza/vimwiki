@@ -1,0 +1,18 @@
+= What is it? =
+  - A tool to automatically keep your app up to date with the current stack
+= Why did we write it? =
+  - We want a way to help apps stay up to date with the stack as things evolve and get better.
+  - You might be wondering, doesn't this sound exactly like the codemod tool that was written?
+  - These migrations are a level above codemods
+= Who uses it? =
+  - Anyone with a react app can and should often run it
+= Who helps develop migrations? =
+  - We need help from people updating/making changes in zion.
+  - Anytime we make an update/change to the cra template, we probably need a migration
+  - One example is the latest header/footer major update. You have to have changed your code, or run a codemod
+        in order to go to that newest version. A migration can be made that updates the version, and runs the
+        codemod (which is smart enough to not change code if it has already been done)
+= How do you run it? =
+  - `fr migrate` will do the check, prompt you for permission to run, and run itself
+= What does it do? =
+  - It will check out a branch, run migrations in order that they were written, update your code, and git add the changes

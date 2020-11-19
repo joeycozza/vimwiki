@@ -1,0 +1,18 @@
+Teams can run `fr upgrade` and any new scripts that need to be run will be run
+(codemods, find and replaces, creating files, moving files, etc)
+
+- Each script to be run has a timestamp either in the file, or as filename of when it was created
+- Each app has a field in the package.json file of `lastFrCliUpgrade`
+- Each script needs to be careful as to whether or not it should be run on the code. (maybe the team already manually updated something)
+  - Each script update the `lastFrCliUpgrade` in package.json after it finishes successfully. Then if a certain script
+  fails, the updated time will be correct and scripts won't be run again
+- This approach solves the current codemod issue where "internal" codemods can't provide their own suggestedGlob.
+
+
+Questions
+- where do we store the scripts? 
+  - All within fr-cli? Need to update fr-cli to get newest
+  - Within their own repo and fr-cli is a wrapper? (similar to codemods today) Need to update fr-cli to get newest
+- What do we do if a script fails? 
+  - Do we need an "undo" (like migrate down?)
+  - Does each script need to be a "transaction" that can be undone easily?

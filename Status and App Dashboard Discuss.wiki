@@ -1,0 +1,27 @@
+Should we combine status app and app dashboard
+Could/should status app be something that is solely in splunk
+
+One stop shop
+
+dep checkers
+status app
+scoreboard
+build dashboard
+
+= Dashboard Updates =
+- remove the 3 component cards on the bottom
+- who isn't on the latest zion ui
+
+
+= Status App =
+- Sparkline for each app instead of green and red
+- top endpoints of each app
+- change the way we pull data out of splunk
+- move off of mongo db
+
+
+= Todo =
+- Make list of metrics we wanna see
+- decide to what extent do we combine the dashboards
+- figure out what kind of backend that we want for the data
+- start collecting the data that we want tracked

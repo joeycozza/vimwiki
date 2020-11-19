@@ -3,7 +3,7 @@ Zach and Josh gave overview of their Forms LevelUp training
 
 
 Production Ready Checklist Walkthrough
-- it would be nice to be clear which steps are to be done "in beta" vs "after production deploy" vs "release" 
+- it would be nice to be clear which steps are to be done "in beta" vs "after production deploy" vs "release"
 
   - it would be nice to have an actual checklist for each app to actually mark up as they go
   - Run Book
@@ -17,7 +17,7 @@ Production Ready Checklist Walkthrough
     - Operate and manage permissions
       - would be nice to link to a page that explains who to reach out to to get those permissions
     - Adept scale needs link to how to set it up. the load test tests adept scale
-      - need a doc with more details. 
+      - need a doc with more details.
       - what is the typical minimal provisioning
     - Splunk Logs. provide a sample query for them to run and test. if it doesnt work, reach out to Core team
     - PageStats bullet point needs links to send to qa/performance test team
@@ -32,7 +32,7 @@ Production Ready Checklist Walkthrough
   - Performance
     - someone with the performance skill badge should be reviewing this with you
   - Internationalization
-  
+
   - Testing and Automation
     - Update the docs on 'all supported browsers' link
   - Authentication Authorization
@@ -41,6 +41,30 @@ Production Ready Checklist Walkthrough
     - Link to prerender docs
     - Tweak the Marlin security scan bullet points
     - add info to contact Dennis Taggart about security scan
+
+= July 9th 2020 =
+David Gurney - preview of Clean Code presentation
+  - imperative vs declarative
+  - Discussion of functional programming
+    - good examples/bad examples
+  - higher order functions
+  - Code review best practices
+
+  - We decided to focus more on Code Reviews
+
+- Tyler to discuss with Aaron for more info about the analytics overriding
+- Component testing in Netlify (needing auth)
+  - fastest would be to get static hosted docs on a familysearch url
+  - Gabe to take a task to work with Tyler on component testing
+- Yarn vs Npm
+  - Have the tree team test out yarn and look for pros/cons.
+  - Look into yarn v1 vs v2
+  - Report back to us
+- Localization Flow/Strategy Changes
+  - multiple teams don't like/agree with the localization flow/strat
+  - Logan to schedule a focus group meeting to invite anyone with input and discuss feedback
+  -
+
 
 = Oct 17th =
 Tasks
