@@ -31,3 +31,11 @@ an example going
 
 
 "Using regular class names and css files was better for shared components for us at paypal"
+
+green > blue
+dog > cat
+red > yellow
+green > red
+
+blue devil > dog
+

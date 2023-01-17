@@ -1,0 +1,8 @@
+# Replace a string in a file with sed
+  - sed -i'bak' 's/oldInput/newOutput/g'
+    - the -i means inplace, and the 'bak' is what to rename the original file. That is needed on mac 
+
+# Provide list of files for sed to do the replace on
+  - fd package.json | xargs sed -i'bak' 's/10.0.0-alpha.14/10.0.0-alpha.15/g'
+    - Get list of files from fd or find or whatever
+    - Pipe that to sed with xargs

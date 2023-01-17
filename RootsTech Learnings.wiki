@@ -1,0 +1,11 @@
+Scaling beanstock not as nice as Logan thought it would be.
+
+We didn't anticipate the scale of pre-render
+
+t3 micro 2-6 => m5.large 30-80  of them
+
+
+Need to get memory and usage stats on splunk queries (no need for VPN, quick and easy)
+Worth the investment to make good spunk dashboards
+Hopefully make a generic one, and then apply it to whichever app we want
+
