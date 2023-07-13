@@ -7,12 +7,16 @@ https://github.com/inAudible-NG/audible-activator#quick-setup
 ./audible-activator.py --username=joeycozza@gmail.com --password={INPUT_PW}
 
 # Download the actual AAX files
+
 https://openaudible.org/
 
 # Actually convert the file
-gitclone https://github.com/KrumpetPirate/AAXtoMP3
-brew install ffmpeg gnu-sed grep
+
+gitclone https://github.com/KrumpetPirate/AAXtoMP3  
+brew install ffmpeg gnu-sed grep mp4v2 mediainfo  
+
 # I had to tweak the AAXtoMP3 script to use "ggrep" which comes from brew install grep
+
 ./AAXtoMP3 --authcode {AUTH_CODE_HERE} {PATH_TO_AAX_FILE}
 
 ./AAXtoMP3 --authcode a05b0407 -e:m4b --loglevel 2 --complete_dir ~/Library/OpenAudible/aax/Completed --target_dir ~/Desktop /Users/joeycozza/Library/OpenAudible/aax/Sanderson/Elantris.AAX /Users/joeycozza/Library/OpenAudible/aax/Sanderson/Oathbringer.AAX
